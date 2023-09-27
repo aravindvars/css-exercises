@@ -10,14 +10,60 @@ body {
 img {
   width: 600px;
 }
-
+.header a {
+  color: gray;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.footer {
+  display: inline-flex;
+  height: 10vh;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  background: lightgray;
+}
+.footer a {
+  color: black;
+}
+li {
+  list-style: none;
+  display: inline-flex;
+  padding: 10px;
+}
+.left-links {
+  padding: 5px;
+}
+.right-links {
+  padding: 20px;
+}
+.content {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
 button {
   font-family: Roboto, sans-serif;
   border: none;
-  border-radius: 8px;
+  border-radius: 5px;
   background: #eee;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
 }
-
+img {
+}
 input {
   border: 1px solid #ddd;
   border-radius: 16px;
